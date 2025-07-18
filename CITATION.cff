@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+license: MPL-2.0
+message: "If you use this software, please cite it as below."
+authors:
+- given-names: "Daniel" 
+  family-names: "Buerer"
+  orcid: "https://orcid.org/0009-0002-5084-0465"
+title: "Arachne"
+version: 1.1.0
+doi: 10.5281/zenodo.16121464
+date-released: 2025-05-06
+url: "https://github.com/Mosstone/Tholos"
+abstract: >
+  Thread and run commands in parallel using json objects, headless or
+  displayed in panes for monitoring and control
