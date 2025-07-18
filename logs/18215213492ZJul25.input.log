@@ -1,0 +1,17 @@
+Script started on 2025-07-18 23:52:13+02:00 [COMMAND="/home/shade/Arachne/services/Arachne  -ls" TERM="xterm-256color" TTY="/dev/pts/24" COLUMNS="-1" LINES="-1"]
+[94m
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.0: [62x9] [history 0/2000, 876 bytes] %0 (active)
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.1: [62x9] [history 3/2000, 2231 bytes] %10
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.2: [64x9] [history 0/2000, 680 bytes] %11
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.3: [62x9] [history 3/2000, 2231 bytes] %9
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.4: [62x9] [history 1/2000, 785 bytes] %8
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.5: [64x9] [history 0/2000, 835 bytes] %7
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.6: [62x9] [history 1/2000, 785 bytes] %6
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.7: [62x9] [history 1/2000, 785 bytes] %5
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.8: [64x9] [history 0/2000, 835 bytes] %4
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.9: [62x11] [history 1/2000, 1100 bytes] %3
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.10: [62x11] [history 1/2000, 1100 bytes] %2
+_Arachne-bc3a6ed3d45991563295f1170e7cd5f7dc29813f4db9af4b8497f163a7c11772:0.11: [64x11] [history 5/2000, 2606 bytes] %1
+[0m
+
+Script done on 2025-07-18 23:52:13+02:00 [COMMAND_EXIT_CODE="0"]

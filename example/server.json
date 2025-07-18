@@ -1,5 +1,5 @@
 {
     "Arachne": [
-        "./server.py"
+        "./.source/server.py"
     ]
 }

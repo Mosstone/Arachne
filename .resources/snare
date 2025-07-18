@@ -65,8 +65,9 @@ snare() {
         case $1 in
 
             init)
-                exec {write}> "global"
+                exec {write}> ".global"
                 exec {read}< "/proc/$$/fd/${write}"
+                rm ".global"
             ;;
             
             write)
@@ -86,6 +87,7 @@ snare() {
             read)
                 echo "[94mReading from [95m$path[0m" > $verbose
                 cat <&"${read}" >/dev/stdout
+                rm ".global"
             ;;
 
 
@@ -93,6 +95,7 @@ snare() {
                 echo "[94mClearing [95m$path[94m contents[0m" > $verbose
                 : > $path
                 rm $path 2>/dev/null
+                rm ".global"
             ;;
 
         esac

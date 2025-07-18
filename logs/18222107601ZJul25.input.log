@@ -1,0 +1,103 @@
+Script started on 2025-07-19 00:21:07+02:00 [COMMAND="/home/shade/Arachne/services/Arachne  one-item.json" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="190" LINES="41"]
+[94m
+rm: cannot remove '.global': No such file or directory
+[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[c[>c[>q]10;?\]11;?\[2;26H[?25l[20;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
+ ⠰⠆ Enter [95mcommand[94m: [95m     [39m [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[2B[K[94m
+>   Subprocess [95m./.source/say.sh[94m...[39m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[?12l[?25h[2;26H[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[2;26H[?25l[20;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
+ ⠰⠆ Enter [95mcommand[94m: [95m     [39m [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[2B[K[94m
+>   Subprocess [95m./.source/say.sh[94m...[39m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[?12l[?25h[2;26H[94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [21;41r[1;1H[6S[20B[94m    |  Bees                                             |
+    |  You are fighting to be a bee                     |
+    |  You can finally be a bee like a bee              |
+    |  This is good news                                |
+    |  You will live like a bee                         |
+    |  You will live for thirty years                   |
+    |  This isn't your world                            |
+    |  You will live like a pet bee                     |
+    |  This is good news                                |
+    |  You can finally be a bee like a bee is a bee     |
+    |  This is a world for bees                         |
+    |  You are fighting for the bee empire              |
+    \  This is good news                                /
+     ---------------------------------------------------
+            \   ^__^
+             \  (oo)\_______[39m[K
+[94m                (__)\       )\/\[39m[K
+[94m                    ||----w |[39m[K
+[94m                    ||     ||[39m[K
+[94m__________________________________________________________[39m[K
+[K[1;41r[2;26H[94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [41;1H[94m>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[2;26H(B[m[94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    e[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    e[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    e[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    e[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    e[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    e[39m [94m ⠰⠆ Enter [95mcommand[94m: [95m    e[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    e[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    e[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    e[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    e[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    e[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   en[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   en[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   en[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   en[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   en[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   en[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m   en[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m   en[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  end[39m [1;41r(B[m[?1l>[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004l[?7727l[?1004l[?69l[?1049l[23;0;0t[detached (from session _Arachne-4a43156c8d28e39050c386b2c1bc6fe8a1dfd434aba64ec3bc50b2850dd287f8)]
+[0m
+
+Script done on 2025-07-19 00:21:08+02:00 [COMMAND_EXIT_CODE="0"]

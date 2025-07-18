@@ -268,7 +268,6 @@ thread() {      #   Individual threads
 
                             $'\r'|$'\n')
                                 rung=\${line#\"\${line%%[! ]*}\"}
-                                echo
                                 case \$rung in
 
                                     help)
@@ -290,7 +289,7 @@ thread() {      #   Individual threads
 
 
                                     shell)
-                                        echo
+                                        echo -en \"[94m\r  ✓ Enter [95mcommand[94m: [95m\$ring[0m \"; echo
                                         stty sane
                                         exec bash -il
                                     ;;
@@ -397,6 +396,10 @@ weave() {
         tmux select-pane -t 0
     else
         echo "    [31m>><<[94m Layout error"
+    fi
+
+    if (( windows == 2 )); then
+        tmux resize-pane -t 0 -y 2
     fi
 
 }
