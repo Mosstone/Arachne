@@ -5,7 +5,7 @@
 
 
 
-version='Arachne v.1.0.2'
+version='Arachne v.1.1.0'
 printhelp() {
     echo "    echo [94m$version"
     cat <<-EOF
