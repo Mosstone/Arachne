@@ -1,0 +1,7 @@
+{
+    "message": [
+        "    A part of these commands are derived from\n    a file and assembled in the json directly\n    using a subshell. This can be used to add\n    visible metadata without affecting script\n    execution, or replacing its output with a\n    progress meter or oth  er information",
+        "    Logic can also be inserted to control the\n    pane behaviour when it finishes execution\n    and when to exit. Without an exit command\n    the panes will wait for the controller to\n    close the server. To close the server use\n    \"tmux kill-session\"",
+        "    Commands in excess of 11 will be moved to\n    background windows in the session so they\n    still execute in the same manner. Calling\n    tmux kill-session from those still closes\n    the process normally. The only difference\n    is that the first eleven jobs in the json\n    have visible user feedback"
+    ]
+}

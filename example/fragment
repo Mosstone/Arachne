@@ -1,0 +1,29 @@
+
+
+
+    A part of these commands are derived from
+    a file and assembled in the json directly
+    using a subshell. This can be used to add
+    visible metadata without affecting script
+    execution, or replacing its output with a
+    progress meter or other information
+
+    Logic can also be inserted to control the
+    pane behaviour when it finishes execution
+    and when to exit. Without an exit command
+    the panes will wait for the controller to
+    close the server. To close the server use
+    tmux kill-session, and it will not affect
+    any other sessions in arachne or tmux
+
+
+    Commands in excess of 11 will be moved to
+    background windows in the session so they
+    still execute in the same manner. Calling
+    tmux kill-session from those still closes
+    the process normally. The only difference
+    is that the first eleven jobs in the json
+    have visible user feedback
+
+
+[94mtest[95m

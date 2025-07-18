@@ -1,0 +1,544 @@
+#!/usr/bin/env bash
+
+
+
+
+
+
+version='Arachne v.1.0.2'
+printhelp() {
+    echo "    echo [94m$version"
+    cat <<-EOF
+[94m
+    A simplified interface for batch execution of subprocesses using tmux and python
+
+    Flags:
+        --help
+        --version
+
+        --stdin|-                           Take json input from stdin instead (api)
+        --wait                              Does not time out when waiting for stdin
+        --cover:<json>|--cover              Open overlay, interactive by default but
+                                            using the json for commands if specified
+
+        --list|-ls                          Display all active sessions
+        end.all                             Closes the threading server
+        end.shred                           Closes the specified session
+
+
+    Examples:
+        arachne                             Open script.json in cwd by default
+        arachne <json> --cover:<json>       Open a cover pane running a command
+
+        arachne server.json --headless    > Run long lived commands as background procs
+        curl "127.0.0.1:5000"             < Interact with process (or forget it exists)
+                                            Here the response is another json input for
+                                            arachne, telling it to run notify-send
+
+        curl "127.0.0.1:5000" | arachne -   Same as above, but using stdin. This is api
+                                            and pipe friendly accepting json input from
+                                            other protocols or from network controllers
+                                            This can be used by programs to dynamically
+                                            build a large json, and pass it as stdin to
+                                            arachne to easily schedule large volumes of
+                                            lazy tasks which do not require feedback
+                                            --stdin is also --headless
+
+        arachne two-hundred-items.json      Schedule two hundred tasks, which will then
+                                            be executed in parallel. The top 11 will be
+                                            visible in the main panel, the rest will be
+                                            executed in the background, in the same way
+                                            as headless. These can be managed using the
+                                            interactive display as with visible threads
+
+                                            There is no limit on threads, only hardware
+                                            considerations if the threads use resources
+                                            There may be a delay in scheduling if there
+                                            are hundreds or thousands of tasks
+
+        
+
+[0m
+	EOF
+}
+
+#   Oratory     =============================================
+
+
+#   Environment
+here="$($(dirname ${BASH_SOURCE[0]})/../.resources/here 1)"
+logs="$here/logs"
+cols=$(tput cols)
+
+
+arguments() {
+    headless="false"
+    dynamic="false"
+    cover="false"
+    waitever="false"
+    logless="false"
+    spinnerThrottle=10
+    verbose="false"
+
+
+    for flag in "$@"; do
+        case $flag in
+
+            --help)
+                printhelp
+                exit 0
+            ;;
+
+
+            --version)
+                echo -e "    [94m$version[0m\n"
+                exit 0
+            ;;
+
+
+            --verbose)
+                verbose=true
+            ;;
+
+
+            --cover*)
+                        #   If specified, open another winow over the entire
+                        #   terminal to run other commands, while Arachne is
+                        #   running the main processes. This can be used for
+                        #   monitoring or for kiosk control over the process
+
+                if [[ $flag == '--cover:'* ]]; then
+                    cover=${flag#'--cover:'}
+                else
+                    cover="script.json"
+                fi
+
+
+                if [[ $cover == "" ]]; then
+                    echo "    [95m>><<[94m No cover script specified"
+                    exit 1
+                elif ! test -f $cover; then
+                    echo "    [95m>><<[94m Cover script [95m$cover[94m could not be found"
+                    exit 1
+                else
+                    echo "[94m>   cover file: $cover[0m"                
+                fi
+
+            ;;
+
+
+            --headless)
+                    #   Use the background executors for every tasks instead
+                    #   instead of giving the first few tasks a user visible
+                    #   interface. With this set all interactions would then
+                    #   be fully scripted and Arachne would focus on process
+                    #   orchestration. Any redirection would have to be done
+                    #   at the input json level to capture any output
+
+                headless="true"
+            ;;
+
+
+            --stdin|-)
+                    #   For api use stdin json data instead of a static file
+                    #   This will also headless as it interferes with the ux
+                dynamic="true"
+                headless="true"
+            ;;
+
+
+            --input:*)
+                    #   Used internally to accept script data from stdin
+                shadow="${flag#--input:}"
+            ;;
+
+
+            --wait)
+                    #   Tells Arachne to wait forever for stdin, requiring a
+                    #   user interaction to cancel. Useful for a rest or low
+                    #   availability api sources (probably)
+                waitever="true"
+            ;;
+
+
+            --list|-ls)
+                    #   View tmux sessions Arachne has open. Usually none
+
+                tmux list-panes -a 2>/dev/null | grep '_Arachne-' || echo "    [94mNo sessions active"
+                echo "[0m"
+                exit 0
+            ;;
+
+
+            --logless)
+                logless="true"
+            ;;
+
+
+            --end*|end*)
+
+                if [[ "$flag" == *"end.all"* ]]; then
+                    echo "[94m>   Ending sessions[0m"
+                    tmux kill-server
+                    rm -fr /dev/shm/.arachne
+
+
+                elif [[ $flag == *'end.shred:'* ]]; then
+
+                    sesh=${flag#*'end.shred:'*}             
+                    if [[ -n $sesh ]]; then
+                        if grep $sesh <<< "$(arachne -ls)" > /dev/null; then
+                            tmux kill-session -t $sesh
+                            echo "[94m>   Ending $sesh[0m"
+                        else
+                            echo "    [95m>><<[94m session [95m$sesh[94m not found"
+                        fi
+
+                    else
+                        arguments end.shred
+                    fi
+
+                else
+                    echo "    [95m>><<[94m Nothing specified to [31mend[94m"
+                fi
+                exit 0
+            ;;
+
+        esac
+    done
+
+
+    if [[ -z $nonce ]]; then
+        nonce="$(openssl rand -hex 32)"
+    fi
+    shred="_Arachne-$nonce"
+
+}
+
+
+#   Assets  =================================================
+
+
+. "$here"/.resources/snare
+snare init --verbose
+
+
+export animationBloom=("⠰⠆" "⠪⠕" "⠅⠨" "⠆⠰" "⠤⠤" "⠴⠦"); frame=1
+
+
+#   Logic   =================================================
+
+
+thread() {      #   Individual threads
+
+    local command="$1"
+    declare -g registry
+
+
+    if ! tmux has-session -t "$shred" 2>/dev/null; then     #   Interactive panel
+
+        tmux new-session -d -s "$shred" -x $cols -y 65535 "
+
+            echo -n "[94m"
+            # echo -e \"[94m\\\n    Type [95mstop[94m\" to terminate subprocesses\\\n
+            bash -c '
+                stty -icanon -echo min 1 time 0
+                export PS1=\"\[\e[0;95m\]Arachne\[\e[0;94m\]:\[\e[1;94m\]~\[\e[0;94m\]\$ \"
+                stop() { exit 0; }; export -f stop
+                end() { exit 0; }; export -f end
+
+                anim=("⠰⠆" "⠪⠕" "⠅⠨" "⠆⠰" "⠤⠤" "⠴⠦")
+                frame=0
+                ring=\"     \"
+                buffer=\"\"
+                echo \"[94m    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell\"
+                echo -n \"buffer\"
+                while true; do
+                    printf -v hexcode 0x%02X \"$key\"
+                    echo -en \"[94m\r \${anim[\$frame]} Enter [95mcommand[94m: [95m\$ring[0m \"
+
+
+                    if read -rt0.01 -n1 -rs key; then
+                        line=\$ring\$key
+                        buff=\${line: -5}
+                        # buff=\${buf#\"\${buf%%[![:space:]]*}\"}
+                        ring=\$buff
+
+                        case \$key in
+
+                            $'\r'|$'\n')
+                                rung=\${line#\"\${line%%[! ]*}\"}
+                                echo
+                                case \$rung in
+
+                                    help)
+                                        tmux new-window \"cat <<-EOF;
+    [94mhelp    Show this information as an overlay to the current session
+    end     Immediately halt the current session and all scheduled tasks
+    shell   Drop to standard interactive with the 'end' function loaded to exit
+    split   Split the interactive pane, leaving the standard interactive in place
+    cover   Open a new interactive overlay with a standard terminal
+										EOF
+                                        read\"
+                                                    # # \"
+                                        ring=\"     \"
+                                    ;;
+
+                                    \"end\"*)
+                                        break
+                                    ;;
+
+
+                                    shell)
+                                        echo
+                                        stty sane
+                                        exec bash -il
+                                    ;;
+
+                                    
+                                    split)
+                                        echo
+                                        tmux split-window -v \"bash -il\"
+                                        ring=\"     \"
+                                    ;;
+
+
+                                    cover)
+                                        echo
+                                        tmux new-window \"exec bash -il\"
+                                        ring=\"     \"
+                                    ;;
+
+
+                                    *)  #   Reset input on fail
+                                        ring=\"     \"
+                                    ;;
+                                esac
+                            ;;
+
+
+#<                          Bin
+                            *)
+                                while read -t 0.0001 -n1; do :; done
+                            ;;
+
+                        esac
+                    fi
+
+
+                    if [[ \$t == $spinnerThrottle ]]; then
+                        if [[ \$frame == 5 ]]; then
+                            frame=0
+                        else
+                            ((++frame))
+                            t=0
+                        fi
+                    else
+                        ((++t))
+                    fi
+
+                    sleep 0.001
+
+                done
+
+                stty sane
+                exec bash
+            '
+            tmux kill-session -t $shred &>/dev/null
+
+        "
+    else
+
+        if [[ $windows -lt 12 ]] && [[ $headless == false ]]; then
+
+            tmux split-window -v -d -t "$shred" "
+                echo -e \"\n[94m>   Subprocess [95m$command[94m...[0m\n\"
+
+                bash -c \"
+                    \"$here\"/.engine/Radial \"\"$command\"\"
+                \"
+
+                echo -ne \"[94m>   Subprocess [95m$command[94m...  ✓ Done[0m\"
+                sleep 1d"
+                registry+=("$command")
+                
+        else                                                        #   If there are too many jobs for the foreground window, gives them
+            overflow=".overflow-$(openssl rand -hex 4)"             #   a unique overflow ID and track them internally by array position
+            tmux new-window -d -t $shred -n $overflow "$command"    #   These work in the background, using cpu threads in python. These
+            registry+=("$overflow - $command")                      #   jobs can be called in large batches depending on system hardware
+        fi                                                          #   and the system will allocate resources accordingly
+
+    fi
+    declare -g windows=$(tmux display -p -t $shred '#{window_panes}')
+
+}
+
+weave() {
+
+    tmux set status off
+    tmux set pane-border-style 'fg=darkblue'
+    tmux set pane-active-border-style 'fg=darkblue'
+    tmux set detach-on-destroy off
+
+    if (( windows == 1 )); then
+        tmux select-layout -t "$shred" main-horizontal
+        tmux select-pane -t 0
+    elif (( windows < 3 )); then
+        tmux select-layout -t "$shred" tiled
+        tmux select-pane -t 0
+    elif (( windows <= 9 )); then
+        tmux select-layout -t "$shred" tiled
+        tmux swap-pane -s 0 -t 1
+        tmux swap-pane -s 1 -t 2
+        tmux select-pane -t 2
+    elif (( windows <= 12 )); then
+        tmux select-layout -t "$shred" tiled
+        tmux swap-pane -s 1 -t 2
+        tmux select-pane -t 0
+    else
+        echo "    [31m>><<[94m Layout error"
+    fi
+
+}
+
+
+spin() {
+
+    if [[ $headless == false ]]; then
+        trap fray EXIT SIGINT SIGTERM 
+    fi
+
+    if [[ $dynamic == false ]]; then
+
+        if [[ -z $1 ]] || \
+        [[ $1 == '--headless' ]] || \
+        [[ $1 == '--verbose' ]] || \
+        [[ $1 == '--wait' ]] || \
+        [[ $1 == '--logless' ]] || \
+        [[ $1 == '--cover'* ]]\
+        ; then
+            local script="script.json"
+        else
+            local script="$1"
+        fi
+
+
+        [[ $(ls "$script" 2>/dev/null) ]] || {
+            echo -e "    [31m>><<[94m Input file [95m$script[94m could not be found[0m\n"; exit 1
+        }
+
+
+        snare write <<< $(jq -r '.Arachne[]' "$script")      #   write data to a file descriptor
+
+
+    else
+        timer=100           #   timeout duration
+
+        if [[ $waitever == false ]]; then
+            information=$timer
+        else
+            information='[94mPress [95mq[94m to stop[94m'
+        fi
+
+        populated=false
+        while [[ $timer -gt 0 ]] || [[ $waitever == true ]]; do   #   If stdin is empty, wait for a second            
+            if read -t 0; then      #   otherwise proceed immediately
+                populated="true"
+                break
+            else
+
+
+                echo -en "\r[94m      ${animationBloom[$frame]} Waiting to receive input [95m$information[0m "
+                sleep 0.1
+
+
+                if [[ $waitever == false ]]; then 
+                    ((--timer))
+                    information=$timer
+
+                else
+                    read -t 0.01 -n 1 key
+                    if [[ $key == "q" ]]; then
+                        break
+                    fi
+                fi
+
+
+                if [[ $frame == 5 ]]; then
+                    frame=1
+                else
+                    ((++frame))
+                fi
+
+            fi
+        done
+
+
+        if [[ $populated == false ]]; then
+            echo -e "\r    [95m>><<[94m Timeout waiting for [95m$script[94m to receive data[0m\n"
+            exit 1
+        fi
+
+
+        snare write <<< $(jq -r '.Arachne[]' < "$shadow")
+
+    fi
+
+
+    mapfile -t stitches < <(snare read)
+    thread                          #   interactive panel
+    for s in "${stitches[@]}"; do
+        thread "$s"
+    done
+    weave
+
+    if [[ $logless == false ]]; then
+        echo ${registry[@]} > $logs/"$(date -u +"%d%H%M%S%3N"Z"%b%y").batch.log"
+    fi
+    # exit
+    if [[ $headless == false ]]; then
+        tmux attach -t "$shred"
+    else
+        [[ $verbose == true ]] && echo -e ">   Session: [95m\n$shred[94m"
+    fi
+
+
+    if [[ $cover != false ]]; then
+
+        mapfile -t covert < <(jq -r '.ArachneCover[]' "$cover")
+
+
+        for vert in "${covert[@]}"; do
+            $vert
+        done
+
+    fi
+
+}
+
+
+fray() {
+
+    arachne end.shred:"$shred" >/dev/null
+
+}
+
+
+monolith() {
+
+    spin "$@"
+
+}
+
+
+main() {
+    echo [94m
+
+    arguments "$@"
+    monolith "$@"
+
+    echo [0m
+}
+
+
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then main $@; fi 

@@ -1,0 +1,10 @@
+{
+    "Arachne": [
+        "watch -n 1 sensors"
+    ],
+
+    "ArachneCover": [
+        "echo test",
+        "echo example"
+    ]
+}

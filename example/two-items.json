@@ -1,0 +1,6 @@
+{
+    "Arachne": [
+        "glxgears",
+        "watch -n 1 sensors"
+    ]
+}

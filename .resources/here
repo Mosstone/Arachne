@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+
+here() {
+	local here="$(dirname "$(realpath ${BASH_SOURCE[0]})")"
+	
+	local i="$1"
+	while [[ "$i" -gt 0 ]]; do
+		if [[ "$i" -gt 100 ]]; then
+			i=100
+		fi
+		((--i))
+		here="$(dirname "$here")"
+	done
+	echo "$here" > /dev/stdout
+}
+
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then here $@; fi 

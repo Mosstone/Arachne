@@ -1,0 +1,163 @@
+#!/usr/bin/env bash
+
+
+
+
+
+
+snare() {
+    local verbose='/dev/null'
+    local quiet='/dev/stdout'
+    local waitever=false
+    for arg in $@; do
+        case $arg in
+            --version)
+                echo "    [94m1.0.0[0m"
+                return 0
+            ;;
+            --help)
+                echo "[94m
+        Usage: 
+            source /path/to/snare       #   only works with source
+            snare init                  #   initialize the environment
+            snare <write|read|clear>    #   read and then write lines
+
+        flags:
+            --version
+            --help
+            --verbose
+            --quiet         Suppress error output
+            --wait          Never times out, exit on q
+                [0m"; return 0
+            ;;
+            --verbose)
+                verbose='/dev/stdout'
+            ;;
+            --quiet)
+                quiet='/dev/null'
+            ;;
+            --wait)
+                waitever=true
+            ;;
+        esac
+    done
+
+    case $1 in
+        write);; read);; clear);; init);;
+        *)
+            echo "    [95m>><<[94m Command not recognized[0m" > $quiet
+            return 1
+        ;;
+    esac
+
+    if [[ -n $2 ]] && [[ $2 != '--verbose' ]]; then
+        ident="$2"
+    else
+        ident="global"
+        # path="$(openssl rand -hex 4).tmp"
+    fi
+    path="/dev/shm/.snare/$ident"
+    mkdir -p $(dirname /dev/shm/.snare/)
+
+
+    readwrite() {
+
+        case $1 in
+
+            init)
+                exec {write}> "global"
+                exec {read}< "/proc/$$/fd/${write}"
+            ;;
+            
+            write)
+                pace $@ || return 1
+                
+                if [[ ${write} == "" ]]; then
+                    echo "Empty input"
+                    return 1
+                fi
+
+
+                echo "[94mWriting to [95m$path[0m" > $verbose
+                cat /dev/stdin >&"${write}"
+            ;;
+
+
+            read)
+                echo "[94mReading from [95m$path[0m" > $verbose
+                cat <&"${read}" >/dev/stdout
+            ;;
+
+
+            clear)
+                echo "[94mClearing [95m$path[94m contents[0m" > $verbose
+                : > $path
+                rm $path 2>/dev/null
+            ;;
+
+        esac
+    }
+
+
+    pace() {    #   Briefly wait for stdin to be populated if empty
+
+        animationBloom=("⠰⠆" "⠪⠕" "⠅⠨" "⠆⠰" "⠤⠤" "⠴⠦"); frame=1
+        timer=10
+
+
+        if [[ $waitever == false ]]; then
+            information=$timer
+        else
+            information='[94mPress [95mq[94m to stop[94m'
+        fi
+
+        populated=false
+        while [[ $timer -gt 0 ]] || [[ $waitever == true ]]; do   #   If stdin is empty, wait for a second            
+            if read -t 0; then      #   otherwise proceed immediately
+                populated="true"
+                break
+            else
+
+
+                echo -en "\r[94m      ${animationBloom[$frame]} Waiting to receive input [95m$information[0m " > $verbose
+                sleep 0.1
+
+
+                if [[ $waitever == false ]]; then 
+                    ((--timer))
+                    information=$timer
+
+                else
+                    read -t 0.01 -n 1 key
+                    if [[ $key == "q" ]]; then
+                        break
+                    fi
+                fi
+
+
+                if [[ $frame == 5 ]]; then
+                    frame=1
+                else
+                    ((++frame))
+                fi
+
+            fi
+        done
+
+
+        if [[ $populated == false ]]; then
+            echo -e "\r    [31m>><<[94m Timeout waiting stdin to contain data[0m" > $quiet
+            return 1
+        fi
+    }
+
+
+    main() {
+        readwrite $@ || return 1
+    }; main $@
+
+}
+
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+    snare $@ || return 1
+fi
