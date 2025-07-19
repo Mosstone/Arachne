@@ -1,6 +1,0 @@
-Script started on 2025-07-18 23:59:06+02:00 [COMMAND="/home/shade/Arachne/services/Arachne  fifty-items.json --headless" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="190" LINES="41"]
-[94m
-rm: cannot remove '.global': No such file or directory
-[0m
-
-Script done on 2025-07-18 23:59:07+02:00 [COMMAND_EXIT_CODE="0"]

@@ -1,8 +1,0 @@
-Script started on 2025-07-19 00:01:11+02:00 [COMMAND="/home/shade/Arachne/services/Arachne  -ls" TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="-1" LINES="-1"]
-[94m
-_Arachne-53e9e49b30ddcfed31b25f952610e72cb6c6225d871192d63932da6889902a39:0.0: [190x10000] [history 0/2000, 400516 bytes] %0 (active)
-_Arachne-84459f89e898d3de820542dff27d5d3205f301c854cbb04760eea2714646115a:0.0: [190x19] [history 0/2000, 1276 bytes] %54 (active)
-_Arachne-84459f89e898d3de820542dff27d5d3205f301c854cbb04760eea2714646115a:0.1: [190x21] [history 0/2000, 4633 bytes] %55
-[0m
-
-Script done on 2025-07-19 00:01:12+02:00 [COMMAND_EXIT_CODE="0"]

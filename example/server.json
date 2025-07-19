@@ -1,5 +1,9 @@
 {
     "Arachne": [
         "./.source/server.py"
+    ],
+    "ArachneOverlay": [
+        "echo 'When executing a headless process with --overlay, that process will be bound to the overlay and end when the overlay exits'",
+        "read"
     ]
 }

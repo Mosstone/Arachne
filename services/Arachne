@@ -18,7 +18,7 @@ printhelp() {
 
         --stdin|-                           Take json input from stdin instead (api)
         --wait                              Does not time out when waiting for stdin
-        --cover:<json>|--cover              Open overlay, interactive by default but
+        --overlay:<json>|--overlay              Open overlay, interactive by default but
                                             using the json for commands if specified
 
         --list|-ls                          Display all active sessions
@@ -28,7 +28,7 @@ printhelp() {
 
     Examples:
         arachne                             Open script.json in cwd by default
-        arachne <json> --cover:<json>       Open a cover pane running a command
+        arachne <json> --overlay:<json>       Open a overlay pane running a command
 
         arachne server.json --headless    > Run long lived commands as background procs
         curl "127.0.0.1:5000"             < Interact with process (or forget it exists)
@@ -68,13 +68,14 @@ printhelp() {
 #   Environment
 here="$($(dirname ${BASH_SOURCE[0]})/../.resources/here 1)"
 logs="$here/logs"
-cols=$(tput cols)
+cols="$(tput cols)"
+staging="/dev/shm/.arachne"
 
 
 arguments() {
     headless="false"
     dynamic="false"
-    cover="false"
+    overlay="false"
     waitever="false"
     logless="false"
     spinnerThrottle=10
@@ -101,27 +102,25 @@ arguments() {
             ;;
 
 
-            --cover*)
+            --overlay*)
                         #   If specified, open another winow over the entire
                         #   terminal to run other commands, while Arachne is
                         #   running the main processes. This can be used for
                         #   monitoring or for kiosk control over the process
 
-                if [[ $flag == '--cover:'* ]]; then
-                    cover=${flag#'--cover:'}
+                if [[ $flag == '--overlay:'* ]]; then
+                    overlay=${flag#'--overlay:'}
                 else
-                    cover="script.json"
+                    overlay="script.json"
                 fi
 
 
-                if [[ $cover == "" ]]; then
-                    echo "    [95m>><<[94m No cover script specified"
+                if [[ $overlay == "" ]]; then
+                    echo "    [95m>><<[94m No overlay script specified"
                     exit 1
-                elif ! test -f $cover; then
-                    echo "    [95m>><<[94m Cover script [95m$cover[94m could not be found"
-                    exit 1
-                else
-                    echo "[94m>   cover file: $cover[0m"                
+                elif ! test -f $overlay; then
+                    echo "    [95m>><<[94m overlay script [95m$overlay[94m could not be found"
+                    exit 1         
                 fi
 
             ;;
@@ -180,7 +179,7 @@ arguments() {
                 if [[ "$flag" == *"end.all"* ]]; then
                     echo "[94m>   Ending sessions[0m"
                     tmux kill-server
-                    rm -fr /dev/shm/.arachne
+                    rm -fr $staging
 
 
                 elif [[ $flag == *'end.shred:'* ]]; then
@@ -251,7 +250,7 @@ thread() {      #   Individual threads
                 frame=0
                 ring=\"     \"
                 buffer=\"\"
-                echo \"[94m    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell\"
+                # echo \"[94m    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell\"
                 echo -n \"buffer\"
                 while true; do
                     printf -v hexcode 0x%02X \"$key\"
@@ -276,7 +275,7 @@ thread() {      #   Individual threads
     end     Immediately halt the current session and all scheduled tasks
     shell   Drop to standard interactive with the 'end' function loaded to exit
     split   Split the interactive pane, leaving the standard interactive in place
-    cover   Open a new interactive overlay with a standard terminal
+    overlay   Open a new interactive overlay with a standard terminal
 										EOF
                                         read\"
                                                     # # \"
@@ -302,7 +301,7 @@ thread() {      #   Individual threads
                                     ;;
 
 
-                                    cover)
+                                    overlay)
                                         echo
                                         tmux new-window \"exec bash -il\"
                                         ring=\"     \"
@@ -316,13 +315,13 @@ thread() {      #   Individual threads
                             ;;
 
 
-#<                          Bin
                             *)
                                 while read -t 0.0001 -n1; do :; done
                             ;;
 
                         esac
                     fi
+                    
 
 
                     if [[ \$t == $spinnerThrottle ]]; then
@@ -358,7 +357,7 @@ thread() {      #   Individual threads
                 \"
 
                 echo -ne \"[94m>   Subprocess [95m$command[94m...  ✓ Done[0m\"
-                sleep 1d"
+                read"
                 registry+=("$command")
                 
         else                                                        #   If there are too many jobs for the foreground window, gives them
@@ -398,6 +397,7 @@ weave() {
         echo "    [31m>><<[94m Layout error"
     fi
 
+
     if (( windows == 2 )); then
         tmux resize-pane -t 0 -y 2
     fi
@@ -411,6 +411,7 @@ spin() {
         trap fray EXIT SIGINT SIGTERM 
     fi
 
+
     if [[ $dynamic == false ]]; then
 
         if [[ -z $1 ]] || \
@@ -418,7 +419,7 @@ spin() {
         [[ $1 == '--verbose' ]] || \
         [[ $1 == '--wait' ]] || \
         [[ $1 == '--logless' ]] || \
-        [[ $1 == '--cover'* ]]\
+        [[ $1 == '--overlay'* ]] \
         ; then
             local script="script.json"
         else
@@ -431,11 +432,11 @@ spin() {
         }
 
 
-        snare write <<< $(jq -r '.Arachne[]' "$script")      #   write data to a file descriptor
+        snare write "$staging/$(openssl rand -hex 4)" <<< $(jq -r '.Arachne[]' "$script")      #   write data to a file descriptor
 
 
     else
-        timer=100           #   timeout duration
+        timer=100
 
         if [[ $waitever == false ]]; then
             information=$timer
@@ -444,8 +445,8 @@ spin() {
         fi
 
         populated=false
-        while [[ $timer -gt 0 ]] || [[ $waitever == true ]]; do   #   If stdin is empty, wait for a second            
-            if read -t 0; then      #   otherwise proceed immediately
+        while [[ $timer -gt 0 ]] || [[ $waitever == true ]]; do
+            if read -t 0; then
                 populated="true"
                 break
             else
@@ -483,7 +484,7 @@ spin() {
         fi
 
 
-        snare write <<< $(jq -r '.Arachne[]' < "$shadow")
+        snare write "$staging/$(openssl rand -hex 4)" <<< $(jq -r '.Arachne[]' < "$shadow")
 
     fi
 
@@ -495,26 +496,54 @@ spin() {
     done
     weave
 
+    if [[ $overlay != false ]]; then
+
+        cscript() {
+            mapfile -t cstitch < <(jq -r '.ArachneOverlay[]' "$overlay")
+            cat <<< ${cstitch[@]}
+            for line in "${cstitch[@]}"; do
+                $line
+            done
+        }
+
+        end() {
+            arachne "end.shred:$shred"
+        }
+
+        if [[ $headless == false ]]; then
+            tmux new-window -t :2000 " \
+                shred=\"${shred}\"; \
+                overlay=\"${overlay}\"; \
+                $(declare -f cscript); \
+                $(declare -f end); \
+
+                cscript \
+            "
+        else    #   If running as headless, the overlay cleans the shred on exit
+            tmux new-window -t :2000 " \
+                shred=\"${shred}\"; \
+                overlay=\"${overlay}\"; \
+                $(declare -f cscript); \
+                $(declare -f end); \
+
+                trap end EXIT SIGINT SIGTERM
+                cscript \
+            "
+            echo $shred:2000
+            tmux select-window -t $shred:2000
+            tmux attach -t $shred:2000
+        fi
+    
+    fi
+
     if [[ $logless == false ]]; then
         echo ${registry[@]} > $logs/"$(date -u +"%d%H%M%S%3N"Z"%b%y").batch.log"
     fi
-    # exit
+
     if [[ $headless == false ]]; then
         tmux attach -t "$shred"
     else
         [[ $verbose == true ]] && echo -e ">   Session: [95m\n$shred[94m"
-    fi
-
-
-    if [[ $cover != false ]]; then
-
-        mapfile -t covert < <(jq -r '.ArachneCover[]' "$cover")
-
-
-        for vert in "${covert[@]}"; do
-            $vert
-        done
-
     fi
 
 }
@@ -535,12 +564,12 @@ monolith() {
 
 
 main() {
-    echo [94m
+    [[ $headless == false ]] && echo [94m
 
     arguments "$@"
     monolith "$@"
 
-    echo [0m
+    [[ $headless == false ]] && echo [0m
 }
 
 

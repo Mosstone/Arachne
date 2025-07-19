@@ -1,1136 +1,0 @@
-Script started on 2025-07-19 00:11:52+02:00 [COMMAND="/home/shade/Arachne/services/Arachne  one-item.json" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="190" LINES="41"]
-[94m
-rm: cannot remove '.global': No such file or directory
-[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[c[>c[>q]10;?\]11;?\[2;26H[?25l[20;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠰⠆ Enter [95mcommand[94m: [95m     [39m [K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[2B[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[2;26H(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[?25l[20;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠰⠆ Enter [95mcommand[94m: [95m     [39m [K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[2B[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[2;26H[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[?69h[?7727h[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[2;26H[?25l[20;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠰⠆ Enter [95mcommand[94m: [95m     [39m [K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[2B[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[2;26H[94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [24;1H    [94m ___________________________________________________
-    /  Good news                                        \
-    |  We can finally be what we were meant to be       |
-    |  Bees                                             |
-    |  You are fighting to be a bee                     |
-    |  You can finally be a bee like a bee              |
-    |  This is good news                                |
-    |  You will live like a bee                         |
-    |  You will live for thirty years                   |
-    |  This isn't your world                            |
-    |  You will live like a pet bee                     |
-    |  This is good news                                |
-    |  You can finally be a bee like a bee is a bee     |
-    |  This is a world for bees                         |
-    |  You are fighting for the bee empire              |
-    \  This is good news                                /
-     ---------------------------------------------------
-   [2;26H(B[m[21;41r[1;1H[6S[35;4H[94m         \   ^__^
-             \  (oo)\_______[39m[K
-[94m                (__)\       )\/\[39m[K
-[94m                    ||----w |[39m[K
-[94m                    ||     ||[39m[K
-[94m__________________________________________________________[39m[K
-[K[1;41r[2;26H[94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [41;1H[94m>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[2;26H(B[m[94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠰⠆ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠪⠕ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠅⠨ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠆⠰ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠤⠤ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m     [39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    s[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    s[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    s[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    s[39m [94m ⠴⠦ Enter [95mcommand[94m: [95m    s[39m [94m ⠰⠆ Enter [95mcommand[94m: [95m    s[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    s[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    s[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    s[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    s[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m    s[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   sh[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   sh[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   sh[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   sh[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   sh[39m [94m ⠪⠕ Enter [95mcommand[94m: [95m   sh[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m   sh[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m   sh[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m   sh[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m   sh[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠅⠨ Enter [95mcommand[94m: [95m  she[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m  she[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠆⠰ Enter [95mcommand[94m: [95m shel[39m [94m ⠤⠤ Enter [95mcommand[94m: [95m shel[39m [94m ⠤⠤ Enter [95mcommand[94m: [95m shel[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠤⠤ Enter [95mcommand[94m: [95mshell[39m [94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [4;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mt(B[m[94mm(B[m[94mu(B[m[94mx(B[m[94m (B[m[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;9r[1;9r[s[3;17H[?25l
-[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux [39m[K[94m[5;1H                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[3;17H[95mArachne[94m:[1m~(B[m[94m$ tmux [39m[K[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[4;17H[?25l[20;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux [39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[2B    |  Bees                                             |[39m[K[94m
-    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[4;17H[95mArachne[94m:[1m~(B[m[94m$ tmux [39m[K[94ms(B[m[94me(B[m[94ml(B[m[94me(B[m[94mc(B[m[94mt(B[m[94m (B[m[K[94m-(B[m[94ml(B[m[94ma(B[m[94my(B[m[94mo(B[m[94mu(B[m[94mt(B[m[94m (B[m[94m-(B[m[94mn(B[m
-[?25l[1;95H[38;5;18m│[2;95H│[3;95H│[4;95H│[5;95H│[6;95H│[7;95H│[8;95H│[9;95H│[10;95H│[11;95H│[12;95H│[13;95H│[14;95H│[15;95H│[16;95H│[17;95H│[18;95H│[19;95H│[20;95H│[21;95H│[22;95H│[23;95H│[24;95H│[25;95H│[26;95H│[27;95H│[28;95H│[29;95H│[30;95H│[31;95H│[32;95H│[33;95H│[34;95H│[35;95H│[36;95H│[37;95H│[38;95H│[39;95H│[40;95H│[41;95H│(B[m[1;94H[1K[94m[H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[2;94H[1K[94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [3;94H[1K
-[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[5;94H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[1;96H[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K[3;96H[K
-    [94m ___________________________________________________[39m[K[94m[5;96H    /  Good news                                        \[39m[K[94m[6;96H    |  We can finally be what we were meant to be       |[39m[K[94m[7;96H    |  Bees                                             |[39m[K[94m[8;96H    |  You are fighting to be a bee                     |[39m[K[94m[9;96H    |  You can finally be a bee like a bee              |[39m[K[94m[10;96H    |  This is good news                                |[39m[K[94m[11;96H    |  You will live like a bee                         |[39m[K[94m[12;96H    |  You will live for thirty years                   |[39m[K[94m[13;96H    |  This isn't your world                            |[39m[K[94m[14;96H    |  You will live like a pet bee                     |[39m[K[94m[15;96H    |  This is good news                                |[39m[K[94m[16;96H    |  You can finally be a bee like a bee is a bee     |[39m[K[94m[17;96H    |  This is a world for bees                         |[39m[K[94m[18;96H    |  You are fighting for the bee empire              |[39m[K[94m[19;96H    \  This is good news                                /[39m[K[94m[20;96H     ---------------------------------------------------[39m[K[94m[21;96H            \   ^__^[39m[K[94m[22;96H             \  (oo)\_______[39m[K[94m[23;96H                (__)\       )\/\[39m[K[94m[24;96H                    ||----w |[39m[K[94m[25;96H                    ||     ||[39m[K[94m[26;96H__________________________________________________________[39m[K[94m[27;96H>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[28;96H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[5;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[15B[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[2B    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[6;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[25d[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[2B    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[7;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[9B[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[18;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[H    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[25;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;81H[38;5;18m│[2;81H│[3;81H│[4;81H│[5;81H│[6;81H│[7;81H│[8;81H│[9;81H│[10;81H│[11;81H│[12;81H│[13;81H│[14;81H│[15;81H│[16;81H│[17;81H│[18;81H│[19;81H│[20;81H│[21;81H│[22;81H│[23;81H│[24;81H│[25;81H│[26;81H│[27;81H│[28;81H│[29;81H│[30;81H│[31;81H│[32;81H│[33;81H│[34;81H│[35;81H│[36;81H│[37;81H│[38;81H│[39;81H│[40;81H│[41;81H│(B[m[1;80H[1K[94m[H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[2;80H[1K[94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [3;80H[1K
-[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[5;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[6;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[7;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[8;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[9;80H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[1;82H[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K[3;82H[K
-    [94m ___________________________________________________[39m[K[94m[5;82H    /  Good news                                        \[39m[K[94m[6;82H    |  We can finally be what we were meant to be       |[39m[K[94m[7;82H    |  Bees                                             |[39m[K[94m[8;82H    |  You are fighting to be a bee                     |[39m[K[94m[9;82H    |  You can finally be a bee like a bee              |[39m[K[94m[10;82H    |  This is good news                                |[39m[K[94m[11;82H    |  You will live like a bee                         |[39m[K[94m[12;82H    |  You will live for thirty years                   |[39m[K[94m[13;82H    |  This isn't your world                            |[39m[K[94m[14;82H    |  You will live like a pet bee                     |[39m[K[94m[15;82H    |  This is good news                                |[39m[K[94m[16;82H    |  You can finally be a bee like a bee is a bee     |[39m[K[94m[17;82H    |  This is a world for bees                         |[39m[K[94m[18;82H    |  You are fighting for the bee empire              |[39m[K[94m[19;82H    \  This is good news                                /[39m[K[94m[20;82H     ---------------------------------------------------[39m[K[94m[21;82H            \   ^__^[39m[K[94m[22;82H             \  (oo)\_______[39m[K[94m[23;82H                (__)\       )\/\[39m[K[94m[24;82H                    ||----w |[39m[K[94m[25;82H                    ||     ||[39m[K[94m[26;82H__________________________________________________________[39m[K[94m[27;82H>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[28;82H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[9;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;110H[38;5;18m│[2;110H│[3;110H│[4;110H│[5;110H│[6;110H│[7;110H│[8;110H│[9;110H│[10;110H│[11;110H│[12;110H│[13;110H│[14;110H│[15;110H│[16;110H│[17;110H│[18;110H│[19;110H│[20;110H│[21;110H│[22;110H│[23;110H│[24;110H│[25;110H│[26;110H│[27;110H│[28;110H│[29;110H│[30;110H│[31;110H│[32;110H│[33;110H│[34;110H│[35;110H│[36;110H│[37;110H│[38;110H│[39;110H│[40;110H│[41;110H│(B[m[94m[1d    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m[2;111H ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K[3;111H[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[5;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[6;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[7;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[8;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[9;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[10;111H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[1;109H[1K
-[1K[94m>   Subprocess [95m./.source/say.sh[94m...[39m[3;109H[1K
-[1K    [94m ___________________________________________________[39m[5;109H[1K[94m    /  Good news                                        \[39m[6;109H[1K[94m    |  We can finally be what we were meant to be       |[39m[7;109H[1K[94m    |  Bees                                             |[39m[8;109H[1K[94m    |  You are fighting to be a bee                     |[39m[9;109H[1K[94m    |  You can finally be a bee like a bee              |[39m[10;109H[1K[94m    |  This is good news                                |[39m[11;109H[1K[94m    |  You will live like a bee                         |[39m[12;109H[1K[94m    |  You will live for thirty years                   |[39m[13;109H[1K[94m    |  This isn't your world                            |[39m[14;109H[1K[94m    |  You will live like a pet bee                     |[39m[15;109H[1K[94m    |  This is good news                                |[39m[16;109H[1K[94m    |  You can finally be a bee like a bee is a bee     |[39m[17;109H[1K[94m    |  This is a world for bees                         |[39m[18;109H[1K[94m    |  You are fighting for the bee empire              |[39m[19;109H[1K[94m    \  This is good news                                /[39m[20;109H[1K[94m     ---------------------------------------------------[39m[21;109H[1K[94m            \   ^__^[39m[22;109H[1K[94m             \  (oo)\_______[39m[23;109H[1K[94m                (__)\       )\/\[39m[24;109H[1K[94m                    ||----w |[39m[25;109H[1K[94m                    ||     ||[39m[26;109H[1K[94m__________________________________________________________[39m[27;109H[1K[94m>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[28;109H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[?12l[?25h[10;111H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m[11;111H[?25l[21;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[2B    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[11;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;95H[38;5;18m│[2;95H│[3;95H│[4;95H│[5;95H│[6;95H│[7;95H│[8;95H│[9;95H│[10;95H│[11;95H│[12;95H│[13;95H│[14;95H│[15;95H│[16;95H│[17;95H│[18;95H│[19;95H│[20;95H│[21;95H│[22;95H│[23;95H│[24;95H│[25;95H│[26;95H│[27;95H│[28;95H│[29;95H│[30;95H│[31;95H│[32;95H│[33;95H│[34;95H│[35;95H│[36;95H│[37;95H│[38;95H│[39;95H│[40;95H│[41;95H│(B[m[1;94H[1K[94m[H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[2;94H[1K[94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [3;94H[1K
-[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[5;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[6;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[7;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[8;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[9;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[10;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[11;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[12;94H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[1;96H[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K[3;96H[K
-    [94m ___________________________________________________[39m[K[94m[5;96H    /  Good news                                        \[39m[K[94m[6;96H    |  We can finally be what we were meant to be       |[39m[K[94m[7;96H    |  Bees                                             |[39m[K[94m[8;96H    |  You are fighting to be a bee                     |[39m[K[94m[9;96H    |  You can finally be a bee like a bee              |[39m[K[94m[10;96H    |  This is good news                                |[39m[K[94m[11;96H    |  You will live like a bee                         |[39m[K[94m[12;96H    |  You will live for thirty years                   |[39m[K[94m[13;96H    |  This isn't your world                            |[39m[K[94m[14;96H    |  You will live like a pet bee                     |[39m[K[94m[15;96H    |  This is good news                                |[39m[K[94m[16;96H    |  You can finally be a bee like a bee is a bee     |[39m[K[94m[17;96H    |  This is a world for bees                         |[39m[K[94m[18;96H    |  You are fighting for the bee empire              |[39m[K[94m[19;96H    \  This is good news                                /[39m[K[94m[20;96H     ---------------------------------------------------[39m[K[94m[21;96H            \   ^__^[39m[K[94m[22;96H             \  (oo)\_______[39m[K[94m[23;96H                (__)\       )\/\[39m[K[94m[24;96H                    ||----w |[39m[K[94m[25;96H                    ||     ||[39m[K[94m[26;96H__________________________________________________________[39m[K[94m[27;96H>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[28;96H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[12;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[8B[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[2B    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[13;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[11B[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[2B    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[14;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[2B[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[18;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[94m[H    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[32;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;81H[38;5;18m│[2;81H│[3;81H│[4;81H│[5;81H│[6;81H│[7;81H│[8;81H│[9;81H│[10;81H│[11;81H│[12;81H│[13;81H│[14;81H│[15;81H│[16;81H│[17;81H│[18;81H│[19;81H│[20;81H│[21;81H│[22;81H│[23;81H│[24;81H│[25;81H│[26;81H│[27;81H│[28;81H│[29;81H│[30;81H│[31;81H│[32;81H│[33;81H│[34;81H│[35;81H│[36;81H│[37;81H│[38;81H│[39;81H│[40;81H│[41;81H│(B[m[1;80H[1K[94m[H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[2;80H[1K[94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [3;80H[1K
-[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[5;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[6;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[7;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[8;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[9;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[10;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[11;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[12;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[13;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[14;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[15;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[16;80H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[1;82H[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K[3;82H[K
-    [94m ___________________________________________________[39m[K[94m[5;82H    /  Good news                                        \[39m[K[94m[6;82H    |  We can finally be what we were meant to be       |[39m[K[94m[7;82H    |  Bees                                             |[39m[K[94m[8;82H    |  You are fighting to be a bee                     |[39m[K[94m[9;82H    |  You can finally be a bee like a bee              |[39m[K[94m[10;82H    |  This is good news                                |[39m[K[94m[11;82H    |  You will live like a bee                         |[39m[K[94m[12;82H    |  You will live for thirty years                   |[39m[K[94m[13;82H    |  This isn't your world                            |[39m[K[94m[14;82H    |  You will live like a pet bee                     |[39m[K[94m[15;82H    |  This is good news                                |[39m[K[94m[16;82H    |  You can finally be a bee like a bee is a bee     |[39m[K[94m[17;82H    |  This is a world for bees                         |[39m[K[94m[18;82H    |  You are fighting for the bee empire              |[39m[K[94m[19;82H    \  This is good news                                /[39m[K[94m[20;82H     ---------------------------------------------------[39m[K[94m[21;82H            \   ^__^[39m[K[94m[22;82H             \  (oo)\_______[39m[K[94m[23;82H                (__)\       )\/\[39m[K[94m[24;82H                    ||----w |[39m[K[94m[25;82H                    ||     ||[39m[K[94m[26;82H__________________________________________________________[39m[K[94m[27;82H>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[28;82H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[16;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;110H[38;5;18m│[2;110H│[3;110H│[4;110H│[5;110H│[6;110H│[7;110H│[8;110H│[9;110H│[10;110H│[11;110H│[12;110H│[13;110H│[14;110H│[15;110H│[16;110H│[17;110H│[18;110H│[19;110H│[20;110H│[21;110H│[22;110H│[23;110H│[24;110H│[25;110H│[26;110H│[27;110H│[28;110H│[29;110H│[30;110H│[31;110H│[32;110H│[33;110H│[34;110H│[35;110H│[36;110H│[37;110H│[38;110H│[39;110H│[40;110H│[41;110H│(B[m[94m[1d    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m[2;111H ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K[3;111H[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[5;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[6;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[7;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[8;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[9;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[10;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[11;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[12;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[13;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[14;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[15;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[16;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[17;111H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[1;109H[1K
-[1K[94m>   Subprocess [95m./.source/say.sh[94m...[39m[3;109H[1K
-[1K    [94m ___________________________________________________[39m[5;109H[1K[94m    /  Good news                                        \[39m[6;109H[1K[94m    |  We can finally be what we were meant to be       |[39m[7;109H[1K[94m    |  Bees                                             |[39m[8;109H[1K[94m    |  You are fighting to be a bee                     |[39m[9;109H[1K[94m    |  You can finally be a bee like a bee              |[39m[10;109H[1K[94m    |  This is good news                                |[39m[11;109H[1K[94m    |  You will live like a bee                         |[39m[12;109H[1K[94m    |  You will live for thirty years                   |[39m[13;109H[1K[94m    |  This isn't your world                            |[39m[14;109H[1K[94m    |  You will live like a pet bee                     |[39m[15;109H[1K[94m    |  This is good news                                |[39m[16;109H[1K[94m    |  You can finally be a bee like a bee is a bee     |[39m[17;109H[1K[94m    |  This is a world for bees                         |[39m[18;109H[1K[94m    |  You are fighting for the bee empire              |[39m[19;109H[1K[94m    \  This is good news                                /[39m[20;109H[1K[94m     ---------------------------------------------------[39m[21;109H[1K[94m            \   ^__^[39m[22;109H[1K[94m             \  (oo)\_______[39m[23;109H[1K[94m                (__)\       )\/\[39m[24;109H[1K[94m                    ||----w |[39m[25;109H[1K[94m                    ||     ||[39m[26;109H[1K[94m__________________________________________________________[39m[27;109H[1K[94m>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[28;109H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[?12l[?25h[17;111H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m[18;111H[?25l[21;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K[94m[2B    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[18;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;95H[38;5;18m│[2;95H│[3;95H│[4;95H│[5;95H│[6;95H│[7;95H│[8;95H│[9;95H│[10;95H│[11;95H│[12;95H│[13;95H│[14;95H│[15;95H│[16;95H│[17;95H│[18;95H│[19;95H│[20;95H│[21;95H│[22;95H│[23;95H│[24;95H│[25;95H│[26;95H│[27;95H│[28;95H│[29;95H│[30;95H│[31;95H│[32;95H│[33;95H│[34;95H│[35;95H│[36;95H│[37;95H│[38;95H│[39;95H│[40;95H│[41;95H│(B[m[1;94H[1K[94m[H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[2;94H[1K[94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [3;94H[1K
-[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[5;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[6;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[7;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[8;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[9;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[10;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[11;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[12;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[13;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[14;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[15;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[16;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[17;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[18;94H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[19;94H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[1;96H[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K[3;96H[K
-    [94m ___________________________________________________[39m[K[94m[5;96H    /  Good news                                        \[39m[K[94m[6;96H    |  We can finally be what we were meant to be       |[39m[K[94m[7;96H    |  Bees                                             |[39m[K[94m[8;96H    |  You are fighting to be a bee                     |[39m[K[94m[9;96H    |  You can finally be a bee like a bee              |[39m[K[94m[10;96H    |  This is good news                                |[39m[K[94m[11;96H    |  You will live like a bee                         |[39m[K[94m[12;96H    |  You will live for thirty years                   |[39m[K[94m[13;96H    |  This isn't your world                            |[39m[K[94m[14;96H    |  You will live like a pet bee                     |[39m[K[94m[15;96H    |  This is good news                                |[39m[K[94m[16;96H    |  You can finally be a bee like a bee is a bee     |[39m[K[94m[17;96H    |  This is a world for bees                         |[39m[K[94m[18;96H    |  You are fighting for the bee empire              |[39m[K[94m[19;96H    \  This is good news                                /[39m[K[94m[20;96H     ---------------------------------------------------[39m[K[94m[21;96H            \   ^__^[39m[K[94m[22;96H             \  (oo)\_______[39m[K[94m[23;96H                (__)\       )\/\[39m[K[94m[24;96H                    ||----w |[39m[K[94m[25;96H                    ||     ||[39m[K[94m[26;96H__________________________________________________________[39m[K[94m[27;96H>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[28;96H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[19;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l
-[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K[94m[2B    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[20;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m[1;20r[20;190H
-[K[1;41r[20;1H[?25l[5B[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[1;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K
-[K[94m[2B    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[21;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[5A[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[94m[18;1H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m
- ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K
-[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K
-[K
-[K[94m[H    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[39;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;81H[38;5;18m│[2;81H│[3;81H│[4;81H│[5;81H│[6;81H│[7;81H│[8;81H│[9;81H│[10;81H│[11;81H│[12;81H│[13;81H│[14;81H│[15;81H│[16;81H│[17;81H│[18;81H│[19;81H│[20;81H│[21;81H│[22;81H│[23;81H│[24;81H│[25;81H│[26;81H│[27;81H│[28;81H│[29;81H│[30;81H│[31;81H│[32;81H│[33;81H│[34;81H│[35;81H│[36;81H│[37;81H│[38;81H│[39;81H│[40;81H│[41;81H│(B[m[1;80H[1K[94m[H    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[2;80H[1K[94m ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [3;80H[1K
-[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[5;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[6;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[7;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[8;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[9;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[10;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[11;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[12;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[13;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[14;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[15;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[16;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[17;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[18;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[19;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[20;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[21;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[22;80H[1K[95mArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[23;80H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[1;82H[K[94m
->   Subprocess [95m./.source/say.sh[94m...[39m[K[3;82H[K
-    [94m ___________________________________________________[39m[K[94m[5;82H    /  Good news                                        \[39m[K[94m[6;82H    |  We can finally be what we were meant to be       |[39m[K[94m[7;82H    |  Bees                                             |[39m[K[94m[8;82H    |  You are fighting to be a bee                     |[39m[K[94m[9;82H    |  You can finally be a bee like a bee              |[39m[K[94m[10;82H    |  This is good news                                |[39m[K[94m[11;82H    |  You will live like a bee                         |[39m[K[94m[12;82H    |  You will live for thirty years                   |[39m[K[94m[13;82H    |  This isn't your world                            |[39m[K[94m[14;82H    |  You will live like a pet bee                     |[39m[K[94m[15;82H    |  This is good news                                |[39m[K[94m[16;82H    |  You can finally be a bee like a bee is a bee     |[39m[K[94m[17;82H    |  This is a world for bees                         |[39m[K[94m[18;82H    |  You are fighting for the bee empire              |[39m[K[94m[19;82H    \  This is good news                                /[39m[K[94m[20;82H     ---------------------------------------------------[39m[K[94m[21;82H            \   ^__^[39m[K[94m[22;82H             \  (oo)\_______[39m[K[94m[23;82H                (__)\       )\/\[39m[K[94m[24;82H                    ||----w |[39m[K[94m[25;82H                    ||     ||[39m[K[94m[26;82H__________________________________________________________[39m[K[94m[27;82H>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[28;82H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[?12l[?25h[23;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m
-[?25l[1;110H[38;5;18m│[2;110H│[3;110H│[4;110H│[5;110H│[6;110H│[7;110H│[8;110H│[9;110H│[10;110H│[11;110H│[12;110H│[13;110H│[14;110H│[15;110H│[16;110H│[17;110H│[18;110H│[19;110H│[20;110H│[21;110H│[22;110H│[23;110H│[24;110H│[25;110H│[26;110H│[27;110H│[28;110H│[29;110H│[30;110H│[31;110H│[32;110H│[33;110H│[34;110H│[35;110H│[36;110H│[37;110H│[38;110H│[39;110H│[40;110H│[41;110H│(B[m[94m[1d    [95mend[94m: Halt all tasks; [95mshell[94m: Drop to shell[39m[K[94m[2;111H ⠴⠦ Enter [95mcommand[94m: [95mshell[39m [K[3;111H[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[5;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[6;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[7;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[8;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[9;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[10;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[11;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[12;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[13;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[14;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[15;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[16;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[17;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[18;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[19;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[20;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[21;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[22;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m[23;111HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[24;111H[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[1;109H[1K
-[1K[94m>   Subprocess [95m./.source/say.sh[94m...[39m[3;109H[1K
-[1K    [94m ___________________________________________________[39m[5;109H[1K[94m    /  Good news                                        \[39m[6;109H[1K[94m    |  We can finally be what we were meant to be       |[39m[7;109H[1K[94m    |  Bees                                             |[39m[8;109H[1K[94m    |  You are fighting to be a bee                     |[39m[9;109H[1K[94m    |  You can finally be a bee like a bee              |[39m[10;109H[1K[94m    |  This is good news                                |[39m[11;109H[1K[94m    |  You will live like a bee                         |[39m[12;109H[1K[94m    |  You will live for thirty years                   |[39m[13;109H[1K[94m    |  This isn't your world                            |[39m[14;109H[1K[94m    |  You will live like a pet bee                     |[39m[15;109H[1K[94m    |  This is good news                                |[39m[16;109H[1K[94m    |  You can finally be a bee like a bee is a bee     |[39m[17;109H[1K[94m    |  This is a world for bees                         |[39m[18;109H[1K[94m    |  You are fighting for the bee empire              |[39m[19;109H[1K[94m    \  This is good news                                /[39m[20;109H[1K[94m     ---------------------------------------------------[39m[21;109H[1K[94m            \   ^__^[39m[22;109H[1K[94m             \  (oo)\_______[39m[23;109H[1K[94m                (__)\       )\/\[39m[24;109H[1K[94m                    ||----w |[39m[25;109H[1K[94m                    ||     ||[39m[26;109H[1K[94m__________________________________________________________[39m[27;109H[1K[94m>   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[28;109H[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K
-[1K[?12l[?25h[24;111H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m[25;111H[?25l[21;1H[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[95m[1;1HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K
-[K[94m[2B    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[20;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[94mtmux select-layout -n(B[m[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;9r[1;9r[s]10;?\]11;?\[4;12H[?25l
-[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[95m[1;1HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ [39m[K[94m[6;1H                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[4;12H[95mArachne[94m:[1m~(B[m[94m$ [39m[K[94mt(B[m[94mm(B[m[94mu(B[m[94mx(B[m[94m (B[m[94mr(B[m[94me(B[m[4;17H[K[4;12H[K[94mt(B[m[94mm(B[m[94mu(B[m[94mx(B[m[94m (B[m[94ml(B[m[94mi(B[m[94ms(B[m[94mt(B[m[94m-(B[m[94mw(B[m[94mi(B[m[94mn(B[m[94md(B[m[94mo(B[m[94mw(B[m[94ms(B[m[1;4r[4;190H
-[K[1;9r[4;1H[1;4r[4;190H
-[3;1H[94m0: bash* (2 panes) [190x9] [layout 45ff,190x9,0,0[190x4,0,0,64,190x4,0,5,65]] @58 (active)[39m
-[K[1;9r[4;1H[95mArachne[94m:[1m~(B[m[94m$ (B[m[?69h(B[m[?12l[?25h[?1006l[?1000l[?1002l[?1003l[1;1H[1;41r[1;41r[s[20;12H[?25l
-[38;5;18m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────(B[m[95m[1;1HArachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux select-layout -n[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ tmux list-windows[39m[K[94m
-0: bash* (2 panes) [190x9] [layout 45ff,190x9,0,0[190x4,0,0,64,190x4,0,5,65]] @58 (active)[39m[K[95m
-Arachne[94m:[1m~(B[m[94m$ [39m[K[94m[22;1H    |  You are fighting to be a bee                     |[39m[K[94m
-    |  You can finally be a bee like a bee              |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You will live like a bee                         |[39m[K[94m
-    |  You will live for thirty years                   |[39m[K[94m
-    |  This isn't your world                            |[39m[K[94m
-    |  You will live like a pet bee                     |[39m[K[94m
-    |  This is good news                                |[39m[K[94m
-    |  You can finally be a bee like a bee is a bee     |[39m[K[94m
-    |  This is a world for bees                         |[39m[K[94m
-    |  You are fighting for the bee empire              |[39m[K[94m
-    \  This is good news                                /[39m[K[94m
-     ---------------------------------------------------[39m[K[94m
-            \   ^__^[39m[K[94m
-             \  (oo)\_______[39m[K[94m
-                (__)\       )\/\[39m[K[94m
-                    ||----w |[39m[K[94m
-                    ||     ||[39m[K[94m
-__________________________________________________________[39m[K[94m
->   Subprocess [95m./.source/say.sh[94m...  ✓ Done[39m[K[?12l[?25h[20;12H[95mArachne[94m:[1m~(B[m[94m$ [39m[K[94m^C(B[m[1;20r[20;190H
-[95mArachne[94m:[1m~(B[m[94m$ [39m[K[1;41r[20;12H[94mq(B[m[94m[7m.source/message.json(B[m[13G[94m.source/message.jsonq(B[m[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[1;20r[20;190H
-[K[1;41r[20;1H[1;20r[20;190H
-[19;1H[94mlogout[39m
-[K[1;41r[20;1H[?25l[H** [32m[1mMessage(B[m: [34m23:59:40.887[39m: Connecting to org.freedesktop.Tracker3.Miner.Files[K
-MESA-INTEL: warning: ../src/intel/vulkan/anv_formats.c:802: FINISHME: support YUV colorspace with DRM format modifiers[K
-MESA-INTEL: warning: ../src/intel/vulkan/anv_formats.c:834: FINISHME: support more multi-planar formats with DRM modifiers[K
-[K
-(org.gnome.Nautilus:1844583): nautilus-view-[33m[1mWARNING(B[m **: [34m00:00:42.651[39m: Attempted to add a non-existent file to the view.[K
-[K
-(org.gnome.Nautilus:1844583): nautilus-view-[33m[1mWARNING(B[m **: [34m00:00:45.048[39m: Attempted to add a non-existent file to the view.[K
-[K
-(org.gnome.Nautilus:1844583): nautilus-view-[33m[1mWARNING(B[m **: [34m00:00:45.048[39m: Attempted to add a non-existent file to the view.[K
-[K
-(org.gnome.Nautilus:1844583): nautilus-view-[33m[1mWARNING(B[m **: [34m00:01:05.766[39m: Attempted to add a non-existent file to the view.[K
-[K
-(org.gnome.Nautilus:1844583): nautilus-view-[33m[1mWARNING(B[m **: [34m00:01:12.068[39m: Attempted to add a non-existent file to the view.[K
-[K
-(org.gnome.Nautilus:1844583): nautilus-view-[33m[1mWARNING(B[m **: [34m00:01:12.068[39m: Attempted to add a non-existent file to the view.[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K
-[K[30m[42m
-[1] 0:nautilus*                                                                                                                                                        "shade" 00:13 19-Jul-25(B[m[?12l[?25h[16;1H^[  end
-^C[1;41r(B[m[?1l>[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004l[?7727l[?1004l[?69l[?1049l[23;0;0t[exited]
-[0m
-
-Script done on 2025-07-19 00:13:52+02:00 [COMMAND_EXIT_CODE="0"]

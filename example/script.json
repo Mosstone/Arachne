@@ -3,8 +3,8 @@
         "watch -n 1 sensors"
     ],
 
-    "ArachneCover": [
-        "echo test",
-        "echo example"
+    "ArachneOverlay": [
+        "echo 'This is an overlay defined in script.json. If used with --headless or --stdin, the underlying processes will terminate when the cover closes. The overlay can be used for further logic and can be made interactive by including bash -il in the overlay script'",
+        "read"
     ]
 }

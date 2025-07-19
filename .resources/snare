@@ -53,7 +53,7 @@ snare() {
     if [[ -n $2 ]] && [[ $2 != '--verbose' ]]; then
         ident="$2"
     else
-        ident="global"
+        ident="/dev/shm/.snare-$(openssl rand -hex 4)"
         # path="$(openssl rand -hex 4).tmp"
     fi
     path="/dev/shm/.snare/$ident"
@@ -65,9 +65,9 @@ snare() {
         case $1 in
 
             init)
-                exec {write}> ".global"
+                exec {write}> "$ident"
                 exec {read}< "/proc/$$/fd/${write}"
-                rm ".global"
+                rm "$ident" 2>/dev/null
             ;;
             
             write)
@@ -87,7 +87,7 @@ snare() {
             read)
                 echo "[94mReading from [95m$path[0m" > $verbose
                 cat <&"${read}" >/dev/stdout
-                rm ".global"
+                rm "$ident" 2>/dev/null
             ;;
 
 
@@ -95,7 +95,7 @@ snare() {
                 echo "[94mClearing [95m$path[94m contents[0m" > $verbose
                 : > $path
                 rm $path 2>/dev/null
-                rm ".global"
+                rm "$ident" 2>/dev/null
             ;;
 
         esac
